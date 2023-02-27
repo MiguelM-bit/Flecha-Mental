@@ -15,3 +15,6 @@ reset_cam = true;
 t = 2.5 * room_speed;
 t_cam = t;
 
+
+nova_largura = 1920;
+nova_altura = 1080;
