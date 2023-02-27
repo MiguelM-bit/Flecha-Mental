@@ -1,6 +1,6 @@
 /// @description
 
-vel = 8;
+vel = 10;
 angle = 0;
 
 t = 2 * room_speed;

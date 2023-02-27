@@ -11,7 +11,7 @@ if flecha
 if acertou
 {
 	
-	
+	show_debug_message("acertou o alvo");
 	
 	time--;
 	if time <= 0
