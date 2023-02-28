@@ -10,12 +10,12 @@ if parede
 
 if bateu
 {
-	var flecha = instance_create_layer(x, y, layer, obj_flecha_static);
+	var flecha = instance_create_layer(x, y, "Player", obj_flecha_static);
 	flecha.speed = 0;
 	flecha.image_angle = image_angle;
 	flecha.direction = direction;
-	flecha.image_xscale = 4;
-	flecha.image_yscale = 4;
+	//flecha.image_xscale = 4;
+	//flecha.image_yscale = 4;
 	
 	
 	instance_destroy();

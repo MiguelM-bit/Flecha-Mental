@@ -8,8 +8,11 @@ if key
 {
 	if !flecha
 	{
-		var flech = instance_create_layer(x, y, layer, obj_flecha);
-		flech.image_xscale = 4;
-		flech.image_yscale = 4;
+		
+		var flech = instance_create_depth(x + 64, y, depth - 1000, obj_flecha);
+		flech.image_angle = point_direction(flech.x, flech.y, mouse_x, mouse_y);
+		flech.direction = point_direction(flech.x, flech.y, mouse_x, mouse_y);
+		//flech.image_xscale = 4;
+		//flech.image_yscale = 4;
 	}
 }

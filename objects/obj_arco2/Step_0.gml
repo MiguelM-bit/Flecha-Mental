@@ -10,12 +10,12 @@ if !flecha
 	image_angle = angle;
 	direction = angle;
 	
-	sprite_index = spr_arco;
+	sprite_index = spr_arco3;
 }
 else
 {
 	angle -= angle_difference(image_angle, 0)  * 0.05;
 	image_angle = angle;
 	direction = angle;
-	sprite_index = spr_arco2;
+	sprite_index = spr_arco3;
 }
