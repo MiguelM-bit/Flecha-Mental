@@ -1,8 +1,9 @@
 /// @description 
 
+randomize();
 
 t = 4.5 * room_speed;
-time = t;
+time = 0;
 
 
 vel = 7.3;
