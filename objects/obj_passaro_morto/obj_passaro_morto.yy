@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_passaro",
+  "name": "obj_passaro_morto",
   "spriteId": {
-    "name": "spr_passaro",
-    "path": "sprites/spr_passaro/spr_passaro.yy",
+    "name": "spr_passaro_morto",
+    "path": "sprites/spr_passaro_morto/spr_passaro_morto.yy",
   },
   "solid": false,
   "visible": true,
