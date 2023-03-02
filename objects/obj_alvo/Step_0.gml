@@ -11,11 +11,11 @@ if flecha
 if acertou
 {
 	
-	show_debug_message("acertou o alvo");
+	//show_debug_message("acertou o alvo");
 	
 	time--;
 	if time <= 0
 	{
-		//room_restart();
+		room_goto(rn_level_select);
 	}
 }

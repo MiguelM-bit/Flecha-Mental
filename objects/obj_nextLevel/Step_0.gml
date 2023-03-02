@@ -11,7 +11,7 @@ if flecha
 if acertou
 {
 	
-	show_debug_message("acertou a proxima fase");
+	//show_debug_message("acertou a proxima fase");
 	
 	time--;
 	if time <= 0
