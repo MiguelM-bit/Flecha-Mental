@@ -5,6 +5,7 @@ draw_self();
 var marg = 150;
 draw_set_color(c_black);
 draw_set_font(Font1);
+
 if level == Room1
 {
 	draw_text(x + (sprite_width/2) - marg, y + sprite_height/2, "Fase 1");
@@ -28,4 +29,7 @@ else if level == Room5
 else if level == Room6
 {
 	draw_text(x + (sprite_width/2) - marg, y + sprite_height/2, "Fase 6");
+}
+else
+{
 }
