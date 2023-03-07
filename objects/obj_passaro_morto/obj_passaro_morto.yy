@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_flecha_static",
+    "path": "objects/obj_flecha_static/obj_flecha_static.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
