@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Flecha Mental",
   "resources": [
+    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},"order":1,},
     {"id":{"name":"spr_arco3","path":"sprites/spr_arco3/spr_arco3.yy",},"order":2,},
     {"id":{"name":"obj_col","path":"objects/obj_col/obj_col.yy",},"order":2,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
